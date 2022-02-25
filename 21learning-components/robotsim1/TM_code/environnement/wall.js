@@ -1,0 +1,1 @@
+class wallRect{constructor(t,a,s,c,e,l=0){this.body=t.matter.add.gameObject(t.add.rectangle(a,s,c,e,267386880)).setStatic(!0).setAngle(l),t.walls.push(this.body)}}class wallCircle{constructor(t,a,s,c){this.body=t.matter.add.gameObject(t.add.circle(a,s,c,16711680)).setStatic(!0),t.walls.push(this.body)}}

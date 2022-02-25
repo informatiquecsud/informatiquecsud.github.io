@@ -1,0 +1,1 @@
+function mapLoad(o){o.load.image("csud","assets/Logo_csud.png")}function mapCreate(o){new Picture(o,"csud",400,100,45),new wallRect(o,100,200,50,200),new markRect(o,400,500,100,100),window.mbrobot_plus=new maqueenPlus(o,"N°1",300,300,0),window.mbrobot_plus_i2c=new i2c(window.mbrobot_plus)}
